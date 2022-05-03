@@ -20,29 +20,29 @@ const Corona = () => {
         <>
 
             <h1 className="bg-amber-500 py-3 text-center capitalize text-xl">india covid 19 Dashboard</h1>
-            <div class="flex flex-col">
+            <div class="flex sm:flex-col">
                 <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                     <div class=" inline-block min-w-full sm:px-6 lg:px-8">
                         <div class="overflow-hidden">
                             <table class="min-w-full">
                                 <thead class="bg-white border-b bg-teal-300">
                                     <tr>
-                                    <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                                    <th scope="sm:col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
                                             S.No
                                         </th>
-                                        <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                                        <th scope="sm:col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
                                             State
                                         </th>
-                                        <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                                        <th scope="sm:col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
                                             Active
                                         </th>
-                                        <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                                        <th scope="sm:col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
                                             confirmed
                                         </th>
-                                        <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                                        <th scope="sm:col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
                                             recovered
                                         </th>
-                                        <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                                        <th scope="sm:col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
                                             Deaths
                                         </th>
                                     </tr>

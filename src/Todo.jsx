@@ -101,7 +101,7 @@ const Todo = () => {
     return (
         <>
 
-            <div className="container mx-auto w-1/2  h-full mt-10">
+            <div className="container mx-auto px-4 sm:w-1/2  h-full mt-10">
                 <div className="">
                     <h1 className="bg-blue-400 text-3xl font-semibold text-center py-2">Todo List</h1>
 
@@ -109,11 +109,11 @@ const Todo = () => {
                         <input type="text" value={inputItem} className="w-1/2 bg-gray-50 px-3" placeholder="Enter Your item here" onChange={eventItem}></input>
                         {editico ? (<button onClick={addItem} className="p-2 bg-blue-600 rounded text-white" >Add Item</button>) : (<button onClick={edited} className="p-2 bg-blue-600 rounded text-white" >Edit Item</button>)}
                     </div>
-                    <ol className="mx-28">
+                    <ol className="mx-10 sm:mx-28">
 
                         {/* {inputItem} */}
                         {item.map((itemval, index) => {
-                            return (<li className="text-xl capitalize flex ml-3 w-96 border justify-between bg-gray-50 px-3 py-2 rounded mb-1">
+                            return (<li className="sm:text-xl capitalize flex sm:ml-3 w-48 sm:w-96 border justify-between bg-gray-50 px-3 py-2 rounded mb-1">
                              {itemval} <span><EditIcon className="text-yellow-500 hover:text-yellow-700 mr-1" onClick={() => editList(index)} /><DeleteForeverIcon className=" hover:text-red-500" onClick={() => deleted(index)} /></span>
                             </li>)
 

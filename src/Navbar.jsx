@@ -7,7 +7,7 @@ const Navbar = () => {
 
             <div>
 
-                <div className="bg-blue-700 py-4 justify-center  flex gap-2 text-xl">
+                <div className=" bg-blue-700 py-4 justify-center px-6  sm:flex gap-2 sm:text-xl">
 
                     <div className="text-yellow-200  hover:text-white"> <NavLink exact activeClassName="bg-red-500 text-white" to="/">Home</NavLink></div>
                     <div className="text-yellow-200 hover:text-white"><NavLink exact activeClassName="text-white" to="/Counters">Counter</NavLink></div>

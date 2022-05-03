@@ -31,7 +31,7 @@ const Weather = () => {
 
     return (
         <>
-            <div className="flex justify-center py-8 border w-1/2 mx-auto bg-orange-200 mt-5 capitalize">
+            <div className="flex justify-center py-8 border sm:w-1/2 mx-auto bg-orange-200 mt-5 capitalize">
                 <div className="">
 
                     <input type="search" value={search} onChange={(event) => {
